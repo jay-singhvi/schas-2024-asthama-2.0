@@ -2,9 +2,9 @@ pandas
 matplotlib
 pydotplus
 seaborn
-scikit-learn==1.5.0
 numpy
 importlib
 collections
 random
 shlex
+scikit-learn
