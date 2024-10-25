@@ -1,0 +1,541 @@
+min_support,min_confidence,num_rules,top_rules
+0.05,0.5,6810866,"                                               antecedents  \
+2337906  (M_50th_quantile_binned_M_50th_quantile_Q2, Se...   
+2337873  (M_mean_binned_M_mean_Q2, M_25th_quantile_binn...   
+2337859  (Sex_F, M_25th_quantile_binned_M_25th_quantile...   
+2378377  (M_50th_quantile_binned_M_50th_quantile_Q2, Se...   
+2378329  (M_50th_quantile_binned_M_50th_quantile_Q2, Se...   
+
+                                               consequents  \
+2337906  (M_mean_binned_M_mean_Q2, M_median_binned_M_me...   
+2337873  (M_median_binned_M_median_Q2, Sex_F, M_20th_qu...   
+2337859  (M_mean_binned_M_mean_Q2, M_median_binned_M_me...   
+2378377  (M_max_binned_M_max_Q1, M_mean_binned_M_mean_Q...   
+2378329  (M_median_binned_M_median_Q2, M_mean_binned_M_...   
+
+         antecedent support  consequent support  support  confidence  \
+2337906            0.058140            0.069767  0.05814    1.000000   
+2337873            0.058140            0.069767  0.05814    1.000000   
+2337859            0.058140            0.069767  0.05814    1.000000   
+2378377            0.069767            0.058140  0.05814    0.833333   
+2378329            0.069767            0.058140  0.05814    0.833333   
+
+              lift  leverage  conviction  zhangs_metric  
+2337906  14.333333  0.054083         inf       0.987654  
+2337873  14.333333  0.054083         inf       0.987654  
+2337859  14.333333  0.054083         inf       0.987654  
+2378377  14.333333  0.054083    5.651163       1.000000  
+2378329  14.333333  0.054083    5.651163       1.000000  "
+0.05,0.7,3982430,"                                               antecedents  \
+3173780  (M_50th_quantile_binned_M_50th_quantile_Q2, Se...   
+3173795  (M_median_binned_M_median_Q2, M_20th_quantile_...   
+833737   (M_mean_binned_M_mean_Q2, M_median_binned_M_me...   
+833736   (M_mean_binned_M_mean_Q2, M_50th_quantile_binn...   
+3737625  (Sex_F, M_max_binned_M_max_Q1, BMI_Category_No...   
+
+                                               consequents  \
+3173780  (M_75th_quantile_binned_M_75th_quantile_Q2, M_...   
+3173795  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+833737   (M_75th_quantile_binned_M_75th_quantile_Q2, M_...   
+833736   (M_75th_quantile_binned_M_75th_quantile_Q2, M_...   
+3737625  (M_75th_quantile_binned_M_75th_quantile_Q2, M_...   
+
+         antecedent support  consequent support  support  confidence  \
+3173780            0.069767            0.058140  0.05814    0.833333   
+3173795            0.058140            0.069767  0.05814    1.000000   
+833737             0.069767            0.058140  0.05814    0.833333   
+833736             0.069767            0.058140  0.05814    0.833333   
+3737625            0.058140            0.069767  0.05814    1.000000   
+
+              lift  leverage  conviction  zhangs_metric  
+3173780  14.333333  0.054083    5.651163       1.000000  
+3173795  14.333333  0.054083         inf       0.987654  
+833737   14.333333  0.054083    5.651163       1.000000  
+833736   14.333333  0.054083    5.651163       1.000000  
+3737625  14.333333  0.054083         inf       0.987654  "
+0.05,0.75,3212286,"                                               antecedents  \
+2597252  (M_75th_quantile_binned_M_75th_quantile_Q2, M_...   
+673376   (BSA_Category_Medium, M_median_binned_M_median...   
+673374   (BSA_Category_Medium, M_25th_quantile_binned_M...   
+2597124  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+2597245  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+
+                                               consequents  \
+2597252  (M_20th_quantile_binned_M_20th_quantile_Q3, M_...   
+673376   (M_mean_binned_M_mean_Q2, M_50th_quantile_binn...   
+673374   (M_mean_binned_M_mean_Q2, M_50th_quantile_binn...   
+2597124  (M_mean_binned_M_mean_Q2, M_median_binned_M_me...   
+2597245  (M_25th_quantile_binned_M_25th_quantile_Q3, M_...   
+
+         antecedent support  consequent support  support  confidence  \
+2597252             0.05814            0.069767  0.05814         1.0   
+673376              0.05814            0.069767  0.05814         1.0   
+673374              0.05814            0.069767  0.05814         1.0   
+2597124             0.05814            0.069767  0.05814         1.0   
+2597245             0.05814            0.069767  0.05814         1.0   
+
+              lift  leverage  conviction  zhangs_metric  
+2597252  14.333333  0.054083         inf       0.987654  
+673376   14.333333  0.054083         inf       0.987654  
+673374   14.333333  0.054083         inf       0.987654  
+2597124  14.333333  0.054083         inf       0.987654  
+2597245  14.333333  0.054083         inf       0.987654  "
+0.05,0.9,1292638,"                                              antecedents  \
+827652  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+827644  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+805296  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+827291  (BSA_Category_Medium, M_mean_binned_M_mean_Q2,...   
+805295  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+
+                                              consequents  antecedent support  \
+827652  (M_mean_binned_M_mean_Q2, M_50th_quantile_binn...            0.069767   
+827644  (M_mean_binned_M_mean_Q2, M_50th_quantile_binn...            0.069767   
+805296  (M_mean_binned_M_mean_Q2, M_50th_quantile_binn...            0.058140   
+827291  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...            0.069767   
+805295  (M_mean_binned_M_mean_Q2, M_median_binned_M_me...            0.058140   
+
+        consequent support   support  confidence       lift  leverage  \
+827652            0.069767  0.069767         1.0  14.333333  0.064900   
+827644            0.069767  0.069767         1.0  14.333333  0.064900   
+805296            0.069767  0.058140         1.0  14.333333  0.054083   
+827291            0.069767  0.069767         1.0  14.333333  0.064900   
+805295            0.069767  0.058140         1.0  14.333333  0.054083   
+
+        conviction  zhangs_metric  
+827652         inf       1.000000  
+827644         inf       1.000000  
+805296         inf       0.987654  
+827291         inf       1.000000  
+805295         inf       0.987654  "
+0.1,0.5,1953512,"                                              antecedents  \
+187808  (M_mean_binned_M_mean_Q2, M_std_binned_M_std_Q...   
+187720  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+466075  (M_mean_binned_M_mean_Q2, M_20th_quantile_binn...   
+466083  (M_mean_binned_M_mean_Q2, M_25th_quantile_binn...   
+55813   (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+
+                                              consequents  antecedent support  \
+187808  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...            0.104651   
+187720  (M_mean_binned_M_mean_Q2, M_20th_quantile_binn...            0.116279   
+466075  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...            0.104651   
+466083  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...            0.104651   
+55813   (M_mean_binned_M_mean_Q2, M_20th_quantile_binn...            0.116279   
+
+        consequent support   support  confidence  lift  leverage  conviction  \
+187808            0.116279  0.104651         1.0   8.6  0.092482         inf   
+187720            0.104651  0.104651         0.9   8.6  0.092482    8.953488   
+466075            0.116279  0.104651         1.0   8.6  0.092482         inf   
+466083            0.116279  0.104651         1.0   8.6  0.092482         inf   
+55813             0.104651  0.104651         0.9   8.6  0.092482    8.953488   
+
+        zhangs_metric  
+187808       0.987013  
+187720       1.000000  
+466075       0.987013  
+466083       0.987013  
+55813        1.000000  "
+0.1,0.7,932796,"                                              antecedents  \
+31151   (M_mean_binned_M_mean_Q2, M_20th_quantile_binn...   
+31150   (M_mean_binned_M_mean_Q2, M_25th_quantile_binn...   
+100412  (M_mean_binned_M_mean_Q2, M_25th_quantile_binn...   
+239008  (M_75th_quantile_binned_M_75th_quantile_Q2, M_...   
+239002  (M_75th_quantile_binned_M_75th_quantile_Q2, M_...   
+
+                                              consequents  antecedent support  \
+31151   (M_75th_quantile_binned_M_75th_quantile_Q2, Se...            0.104651   
+31150   (M_75th_quantile_binned_M_75th_quantile_Q2, Se...            0.104651   
+100412  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...            0.104651   
+239008  (M_25th_quantile_binned_M_25th_quantile_Q3, M_...            0.116279   
+239002  (M_20th_quantile_binned_M_20th_quantile_Q3, M_...            0.116279   
+
+        consequent support   support  confidence  lift  leverage  conviction  \
+31151             0.116279  0.104651         1.0   8.6  0.092482         inf   
+31150             0.116279  0.104651         1.0   8.6  0.092482         inf   
+100412            0.116279  0.104651         1.0   8.6  0.092482         inf   
+239008            0.104651  0.104651         0.9   8.6  0.092482    8.953488   
+239002            0.104651  0.104651         0.9   8.6  0.092482    8.953488   
+
+        zhangs_metric  
+31151        0.987013  
+31150        0.987013  
+100412       0.987013  
+239008       1.000000  
+239002       1.000000  "
+0.1,0.75,786234,"                                              antecedents  \
+85709   (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+85750   (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+204347  (M_mean_binned_M_mean_Q2, M_20th_quantile_binn...   
+85715   (M_mean_binned_M_mean_Q2, M_20th_quantile_binn...   
+204300  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+
+                                              consequents  antecedent support  \
+85709   (M_25th_quantile_binned_M_25th_quantile_Q3, M_...            0.116279   
+85750   (M_mean_binned_M_mean_Q2, M_20th_quantile_binn...            0.116279   
+204347  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...            0.104651   
+85715   (M_75th_quantile_binned_M_75th_quantile_Q2, Se...            0.104651   
+204300  (M_mean_binned_M_mean_Q2, M_25th_quantile_binn...            0.116279   
+
+        consequent support   support  confidence  lift  leverage  conviction  \
+85709             0.104651  0.104651         0.9   8.6  0.092482    8.953488   
+85750             0.104651  0.104651         0.9   8.6  0.092482    8.953488   
+204347            0.116279  0.104651         1.0   8.6  0.092482         inf   
+85715             0.116279  0.104651         1.0   8.6  0.092482         inf   
+204300            0.104651  0.104651         0.9   8.6  0.092482    8.953488   
+
+        zhangs_metric  
+85709        1.000000  
+85750        1.000000  
+204347       0.987013  
+85715        0.987013  
+204300       1.000000  "
+0.1,0.9,350916,"                                             antecedents  \
+96922  (M_20th_quantile_binned_M_20th_quantile_Q3, M_...   
+96924  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+96925  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+12338  (M_mean_binned_M_mean_Q2, M_25th_quantile_binn...   
+12332  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...   
+
+                                             consequents  antecedent support  \
+96922  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...            0.104651   
+96924  (M_20th_quantile_binned_M_20th_quantile_Q3, M_...            0.116279   
+96925  (M_25th_quantile_binned_M_25th_quantile_Q3, M_...            0.116279   
+12338  (M_75th_quantile_binned_M_75th_quantile_Q2, Se...            0.104651   
+12332  (M_mean_binned_M_mean_Q2, M_25th_quantile_binn...            0.116279   
+
+       consequent support   support  confidence  lift  leverage  conviction  \
+96922            0.116279  0.104651         1.0   8.6  0.092482         inf   
+96924            0.104651  0.104651         0.9   8.6  0.092482    8.953488   
+96925            0.104651  0.104651         0.9   8.6  0.092482    8.953488   
+12338            0.116279  0.104651         1.0   8.6  0.092482         inf   
+12332            0.104651  0.104651         0.9   8.6  0.092482    8.953488   
+
+       zhangs_metric  
+96922       0.987013  
+96924       1.000000  
+96925       1.000000  
+12338       0.987013  
+12332       1.000000  "
+0.15,0.5,926618,"                                            antecedents  \
+2484        (M_20th_quantile_binned_M_20th_quantile_Q4)   
+2485        (M_25th_quantile_binned_M_25th_quantile_Q4)   
+2482  (M_20th_quantile_binned_M_20th_quantile_Q4, M_...   
+2483  (M_25th_quantile_binned_M_25th_quantile_Q4, M_...   
+201         (M_25th_quantile_binned_M_25th_quantile_Q4)   
+
+                                            consequents  antecedent support  \
+2484  (M_25th_quantile_binned_M_25th_quantile_Q4, M_...            0.162791   
+2485  (M_20th_quantile_binned_M_20th_quantile_Q4, M_...            0.162791   
+2482        (M_25th_quantile_binned_M_25th_quantile_Q4)            0.162791   
+2483        (M_20th_quantile_binned_M_20th_quantile_Q4)            0.162791   
+201         (M_20th_quantile_binned_M_20th_quantile_Q4)            0.162791   
+
+      consequent support   support  confidence      lift  leverage  \
+2484            0.162791  0.162791         1.0  6.142857   0.13629   
+2485            0.162791  0.162791         1.0  6.142857   0.13629   
+2482            0.162791  0.162791         1.0  6.142857   0.13629   
+2483            0.162791  0.162791         1.0  6.142857   0.13629   
+201             0.162791  0.162791         1.0  6.142857   0.13629   
+
+      conviction  zhangs_metric  
+2484         inf            1.0  
+2485         inf            1.0  
+2482         inf            1.0  
+2483         inf            1.0  
+201          inf            1.0  "
+0.15,0.7,434869,"                                            antecedents  \
+1414  (M_20th_quantile_binned_M_20th_quantile_Q4, M_...   
+1415  (M_25th_quantile_binned_M_25th_quantile_Q4, M_...   
+110         (M_20th_quantile_binned_M_20th_quantile_Q4)   
+1416        (M_20th_quantile_binned_M_20th_quantile_Q4)   
+111         (M_25th_quantile_binned_M_25th_quantile_Q4)   
+
+                                            consequents  antecedent support  \
+1414        (M_25th_quantile_binned_M_25th_quantile_Q4)            0.162791   
+1415        (M_20th_quantile_binned_M_20th_quantile_Q4)            0.162791   
+110         (M_25th_quantile_binned_M_25th_quantile_Q4)            0.162791   
+1416  (M_25th_quantile_binned_M_25th_quantile_Q4, M_...            0.162791   
+111         (M_20th_quantile_binned_M_20th_quantile_Q4)            0.162791   
+
+      consequent support   support  confidence      lift  leverage  \
+1414            0.162791  0.162791         1.0  6.142857   0.13629   
+1415            0.162791  0.162791         1.0  6.142857   0.13629   
+110             0.162791  0.162791         1.0  6.142857   0.13629   
+1416            0.162791  0.162791         1.0  6.142857   0.13629   
+111             0.162791  0.162791         1.0  6.142857   0.13629   
+
+      conviction  zhangs_metric  
+1414         inf            1.0  
+1415         inf            1.0  
+110          inf            1.0  
+1416         inf            1.0  
+111          inf            1.0  "
+0.15,0.75,355047,"                                            antecedents  \
+76          (M_25th_quantile_binned_M_25th_quantile_Q4)   
+75          (M_20th_quantile_binned_M_20th_quantile_Q4)   
+1141        (M_20th_quantile_binned_M_20th_quantile_Q4)   
+1142        (M_25th_quantile_binned_M_25th_quantile_Q4)   
+1140  (M_25th_quantile_binned_M_25th_quantile_Q4, M_...   
+
+                                            consequents  antecedent support  \
+76          (M_20th_quantile_binned_M_20th_quantile_Q4)            0.162791   
+75          (M_25th_quantile_binned_M_25th_quantile_Q4)            0.162791   
+1141  (M_25th_quantile_binned_M_25th_quantile_Q4, M_...            0.162791   
+1142  (M_20th_quantile_binned_M_20th_quantile_Q4, M_...            0.162791   
+1140        (M_20th_quantile_binned_M_20th_quantile_Q4)            0.162791   
+
+      consequent support   support  confidence      lift  leverage  \
+76              0.162791  0.162791         1.0  6.142857   0.13629   
+75              0.162791  0.162791         1.0  6.142857   0.13629   
+1141            0.162791  0.162791         1.0  6.142857   0.13629   
+1142            0.162791  0.162791         1.0  6.142857   0.13629   
+1140            0.162791  0.162791         1.0  6.142857   0.13629   
+
+      conviction  zhangs_metric  
+76           inf            1.0  
+75           inf            1.0  
+1141         inf            1.0  
+1142         inf            1.0  
+1140         inf            1.0  "
+0.15,0.9,136064,"                                           antecedents  \
+504        (M_20th_quantile_binned_M_20th_quantile_Q4)   
+505        (M_25th_quantile_binned_M_25th_quantile_Q4)   
+28         (M_25th_quantile_binned_M_25th_quantile_Q4)   
+502  (M_20th_quantile_binned_M_20th_quantile_Q4, M_...   
+27         (M_20th_quantile_binned_M_20th_quantile_Q4)   
+
+                                           consequents  antecedent support  \
+504  (M_25th_quantile_binned_M_25th_quantile_Q4, M_...            0.162791   
+505  (M_20th_quantile_binned_M_20th_quantile_Q4, M_...            0.162791   
+28         (M_20th_quantile_binned_M_20th_quantile_Q4)            0.162791   
+502        (M_25th_quantile_binned_M_25th_quantile_Q4)            0.162791   
+27         (M_25th_quantile_binned_M_25th_quantile_Q4)            0.162791   
+
+     consequent support   support  confidence      lift  leverage  conviction  \
+504            0.162791  0.162791         1.0  6.142857   0.13629         inf   
+505            0.162791  0.162791         1.0  6.142857   0.13629         inf   
+28             0.162791  0.162791         1.0  6.142857   0.13629         inf   
+502            0.162791  0.162791         1.0  6.142857   0.13629         inf   
+27             0.162791  0.162791         1.0  6.142857   0.13629         inf   
+
+     zhangs_metric  
+504            1.0  
+505            1.0  
+28             1.0  
+502            1.0  
+27             1.0  "
+0.2,0.5,284472,"                                             antecedents  \
+41165  (M_median_binned_M_median_Q3, M_75th_quantile_...   
+41170  (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+11431  (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+41159  (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+11430  (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+
+                                             consequents  antecedent support  \
+41165  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.209302   
+41170  (M_median_binned_M_median_Q3, M_mean_binned_M_...            0.209302   
+11431  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.209302   
+41159  (M_median_binned_M_median_Q3, M_mean_binned_M_...            0.209302   
+11430  (M_median_binned_M_median_Q3, M_mean_binned_M_...            0.209302   
+
+       consequent support   support  confidence      lift  leverage  \
+41165            0.244186  0.209302         1.0  4.095238  0.158194   
+41170            0.244186  0.209302         1.0  4.095238  0.158194   
+11431            0.244186  0.209302         1.0  4.095238  0.158194   
+41159            0.244186  0.209302         1.0  4.095238  0.158194   
+11430            0.244186  0.209302         1.0  4.095238  0.158194   
+
+       conviction  zhangs_metric  
+41165         inf       0.955882  
+41170         inf       0.955882  
+11431         inf       0.955882  
+41159         inf       0.955882  
+11430         inf       0.955882  "
+0.2,0.7,165082,"                                             antecedents  \
+6766   (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+23744  (M_median_binned_M_median_Q3, M_75th_quantile_...   
+6765   (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+23749  (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+23738  (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+
+                                             consequents  antecedent support  \
+6766   (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.209302   
+23744  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.209302   
+6765   (M_median_binned_M_median_Q3, M_mean_binned_M_...            0.209302   
+23749  (M_median_binned_M_median_Q3, M_mean_binned_M_...            0.209302   
+23738  (M_median_binned_M_median_Q3, M_mean_binned_M_...            0.209302   
+
+       consequent support   support  confidence      lift  leverage  \
+6766             0.244186  0.209302         1.0  4.095238  0.158194   
+23744            0.244186  0.209302         1.0  4.095238  0.158194   
+6765             0.244186  0.209302         1.0  4.095238  0.158194   
+23749            0.244186  0.209302         1.0  4.095238  0.158194   
+23738            0.244186  0.209302         1.0  4.095238  0.158194   
+
+       conviction  zhangs_metric  
+6766          inf       0.955882  
+23744         inf       0.955882  
+6765          inf       0.955882  
+23749         inf       0.955882  
+23738         inf       0.955882  "
+0.2,0.75,134689,"                                             antecedents  \
+5488   (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+5489   (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+19231  (M_median_binned_M_median_Q3, M_75th_quantile_...   
+19236  (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+19247  (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+
+                                             consequents  antecedent support  \
+5488   (M_median_binned_M_median_Q3, M_mean_binned_M_...            0.209302   
+5489   (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.209302   
+19231  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.209302   
+19236  (M_median_binned_M_median_Q3, M_mean_binned_M_...            0.209302   
+19247  (M_median_binned_M_median_Q3, M_mean_binned_M_...            0.209302   
+
+       consequent support   support  confidence      lift  leverage  \
+5488             0.244186  0.209302         1.0  4.095238  0.158194   
+5489             0.244186  0.209302         1.0  4.095238  0.158194   
+19231            0.244186  0.209302         1.0  4.095238  0.158194   
+19236            0.244186  0.209302         1.0  4.095238  0.158194   
+19247            0.244186  0.209302         1.0  4.095238  0.158194   
+
+       conviction  zhangs_metric  
+5488          inf       0.955882  
+5489          inf       0.955882  
+19231         inf       0.955882  
+19236         inf       0.955882  
+19247         inf       0.955882  "
+0.2,0.9,51942,"                                            antecedents  \
+2396  (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+8286  (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+8289  (M_median_binned_M_median_Q3, M_75th_quantile_...   
+2395  (M_75th_quantile_binned_M_75th_quantile_Q3, M_...   
+8283  (M_median_binned_M_median_Q3, M_75th_quantile_...   
+
+                                            consequents  antecedent support  \
+2396  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.209302   
+8286  (M_median_binned_M_median_Q3, M_mean_binned_M_...            0.209302   
+8289  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.209302   
+2395  (M_median_binned_M_median_Q3, M_mean_binned_M_...            0.209302   
+8283  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.209302   
+
+      consequent support   support  confidence      lift  leverage  \
+2396            0.244186  0.209302         1.0  4.095238  0.158194   
+8286            0.244186  0.209302         1.0  4.095238  0.158194   
+8289            0.244186  0.209302         1.0  4.095238  0.158194   
+2395            0.244186  0.209302         1.0  4.095238  0.158194   
+8283            0.244186  0.209302         1.0  4.095238  0.158194   
+
+      conviction  zhangs_metric  
+2396         inf       0.955882  
+8286         inf       0.955882  
+8289         inf       0.955882  
+2395         inf       0.955882  
+8283         inf       0.955882  "
+0.25,0.5,99775,"                                             antecedents  \
+26470  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...   
+26467  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...   
+26469  (M_median_binned_M_median_Q3, M_25th_quantile_...   
+26472  (M_median_binned_M_median_Q3, M_20th_quantile_...   
+26453  (M_25th_quantile_binned_M_25th_quantile_Q3, M_...   
+
+                                             consequents  antecedent support  \
+26470  (M_25th_quantile_binned_M_25th_quantile_Q3, M_...            0.255814   
+26467  (M_median_binned_M_median_Q3, M_20th_quantile_...            0.255814   
+26469  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.255814   
+26472  (M_25th_quantile_binned_M_25th_quantile_Q3, M_...            0.255814   
+26453  (M_median_binned_M_median_Q3, M_20th_quantile_...            0.255814   
+
+       consequent support   support  confidence      lift  leverage  \
+26470            0.255814  0.255814         1.0  3.909091  0.190373   
+26467            0.255814  0.255814         1.0  3.909091  0.190373   
+26469            0.255814  0.255814         1.0  3.909091  0.190373   
+26472            0.255814  0.255814         1.0  3.909091  0.190373   
+26453            0.255814  0.255814         1.0  3.909091  0.190373   
+
+       conviction  zhangs_metric  
+26470         inf            1.0  
+26467         inf            1.0  
+26469         inf            1.0  
+26472         inf            1.0  
+26453         inf            1.0  "
+0.25,0.7,63339,"                                             antecedents  \
+16349  (M_median_binned_M_median_Q3, M_20th_quantile_...   
+4939   (M_median_binned_M_median_Q3, M_20th_quantile_...   
+16335  (M_median_binned_M_median_Q3, M_20th_quantile_...   
+16346  (M_median_binned_M_median_Q3, M_25th_quantile_...   
+16347  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...   
+
+                                             consequents  antecedent support  \
+16349  (M_25th_quantile_binned_M_25th_quantile_Q3, M_...            0.255814   
+4939   (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.255814   
+16335  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.255814   
+16346  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.255814   
+16347  (M_25th_quantile_binned_M_25th_quantile_Q3, M_...            0.255814   
+
+       consequent support   support  confidence      lift  leverage  \
+16349            0.255814  0.255814         1.0  3.909091  0.190373   
+4939             0.255814  0.255814         1.0  3.909091  0.190373   
+16335            0.255814  0.255814         1.0  3.909091  0.190373   
+16346            0.255814  0.255814         1.0  3.909091  0.190373   
+16347            0.255814  0.255814         1.0  3.909091  0.190373   
+
+       conviction  zhangs_metric  
+16349         inf            1.0  
+4939          inf            1.0  
+16335         inf            1.0  
+16346         inf            1.0  
+16347         inf            1.0  "
+0.25,0.75,53664,"                                             antecedents  \
+4024   (M_50th_quantile_binned_M_50th_quantile_Q3, M_...   
+13576  (M_25th_quantile_binned_M_25th_quantile_Q3, M_...   
+4022   (M_median_binned_M_median_Q3, M_20th_quantile_...   
+4025   (M_50th_quantile_binned_M_50th_quantile_Q3, M_...   
+13581  (M_median_binned_M_median_Q3, M_20th_quantile_...   
+
+                                             consequents  antecedent support  \
+4024   (M_median_binned_M_median_Q3, M_25th_quantile_...            0.255814   
+13576  (M_median_binned_M_median_Q3, M_20th_quantile_...            0.255814   
+4022   (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.255814   
+4025   (M_median_binned_M_median_Q3, M_20th_quantile_...            0.255814   
+13581  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.255814   
+
+       consequent support   support  confidence      lift  leverage  \
+4024             0.255814  0.255814         1.0  3.909091  0.190373   
+13576            0.255814  0.255814         1.0  3.909091  0.190373   
+4022             0.255814  0.255814         1.0  3.909091  0.190373   
+4025             0.255814  0.255814         1.0  3.909091  0.190373   
+13581            0.255814  0.255814         1.0  3.909091  0.190373   
+
+       conviction  zhangs_metric  
+4024          inf            1.0  
+13576         inf            1.0  
+4022          inf            1.0  
+4025          inf            1.0  
+13581         inf            1.0  "
+0.25,0.9,21314,"                                            antecedents  \
+1680  (M_median_binned_M_median_Q3, M_25th_quantile_...   
+5600  (M_25th_quantile_binned_M_25th_quantile_Q3, M_...   
+1682  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...   
+1681  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...   
+1679  (M_median_binned_M_median_Q3, M_20th_quantile_...   
+
+                                            consequents  antecedent support  \
+1680  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.255814   
+5600  (M_median_binned_M_median_Q3, M_20th_quantile_...            0.255814   
+1682  (M_median_binned_M_median_Q3, M_20th_quantile_...            0.255814   
+1681  (M_median_binned_M_median_Q3, M_25th_quantile_...            0.255814   
+1679  (M_50th_quantile_binned_M_50th_quantile_Q3, M_...            0.255814   
+
+      consequent support   support  confidence      lift  leverage  \
+1680            0.255814  0.255814         1.0  3.909091  0.190373   
+5600            0.255814  0.255814         1.0  3.909091  0.190373   
+1682            0.255814  0.255814         1.0  3.909091  0.190373   
+1681            0.255814  0.255814         1.0  3.909091  0.190373   
+1679            0.255814  0.255814         1.0  3.909091  0.190373   
+
+      conviction  zhangs_metric  
+1680         inf            1.0  
+5600         inf            1.0  
+1682         inf            1.0  
+1681         inf            1.0  
+1679         inf            1.0  "
